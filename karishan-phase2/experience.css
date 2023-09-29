@@ -1,0 +1,95 @@
+.workexperience{
+    grid-row:2;
+    padding:5%;
+    grid-column: 4/6;
+}
+
+.projects{
+    grid-row:2;
+    padding:5%;
+
+    grid-column: 1/4;
+}
+
+.header{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/7;
+    grid-row: 1;
+    padding-bottom: 2%;
+
+}
+
+
+h1{
+    font-size: 100;
+}
+
+h2{
+    font-size: 40;
+}
+
+h3{
+    font-size: 20;
+    text-align: center;
+}
+p{
+    font-size: 15;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 312px 312px 312px 312px 312px;
+    grid-template-rows:  100px 250px 250px 250px;
+    
+
+}
+
+.container{
+    display: flex;
+}
+
+body{
+    background-color:#1D2023;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    width:100%;
+    background-color: rgb(32, 116, 155);
+    
+}
+
+
+
+nav{
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 2%;
+    margin: 0;
+}
+li {
+    margin-left: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer{
+    border-radius: 25px;
+    padding:1.5%;
+    margin: 6%;
+    background-color: rgb(134, 158, 181);
+}
+

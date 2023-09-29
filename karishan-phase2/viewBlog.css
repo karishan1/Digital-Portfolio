@@ -1,0 +1,109 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 312px 312px 312px 312px 312px;
+    grid-template-rows:  150px ;
+    
+
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    display: flex;
+}
+
+header{
+    width:100%;
+    background-color: rgb(32, 116, 155);
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 2%;
+    margin: 0;
+}
+li {
+    margin-left: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+body{
+    background-color:#1D2023;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: space-between;
+}
+
+.header{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/7;
+    grid-row: 1;
+    padding-bottom: 2%;
+
+}
+
+.post{
+    grid-column: 2/5;
+    justify-content: center;
+    margin:20px;
+    border:1px solid rgb(251, 251, 246);
+    background-color: aliceblue;
+    color: #1D2023;
+    min-height: 180px;
+
+
+}
+
+.title{
+    margin:10px;
+    font-size: 35;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(165, 117, 27);
+}
+
+.date{
+    padding-left:5px;
+    margin:10px;
+    text-align: right;
+
+
+
+}
+
+
+
+.time{
+    text-align: right;
+    padding-left:50px;
+    margin:10px;
+
+
+}
+
+.content{
+    margin:10px;
+
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+
+.monthForm{
+    grid-column: 3;
+}

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+
+
+    .flex-container{
+        flex-direction: column;
+        
+    }
+
+    .grid-container{
+        grid-template-columns:200px 100px 5px 200px 200px 200px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    header > nav > ul{
+        font-size: large;
+        justify-content: center;
+        margin:20;
+    }
+
+    ul{
+        flex-direction: column;
+        justify-content: center;
+        margin:20;
+
+
+
+    }
+
+   
+   
+
+    .container{
+        flex-direction: column;
+    }
+
+    .header{
+    grid-row: 1;
+    grid-column: 1/6;
+    width:760px;
+    }
+
+
+
+    .heading{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+
+    .post{
+        justify-content: center;
+
+    }
+
+ 
+
+    input[value="Logout"] {
+        font-size: 24px;
+        margin: 10px;
+        
+      }
+
+      .form1{
+        grid-column: 1/6;
+        grid-row: 4;
+
+    }
+    
+    .form2{
+        grid-column: 1/6;
+    }
+
+
+    .monthForm{
+        padding: 20px;
+    }
+
+    .headinglogin{
+        grid-column: 3;
+        grid-row:3;
+    }
+
+
+}
